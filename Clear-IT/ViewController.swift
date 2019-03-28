@@ -27,7 +27,7 @@ class ViewController: NSViewController {
   }
   
   func deleteDerivedData() {
-    print("Delete that shit")
+    print("Deleting DerivedData...")
     let task = Process()
 
     let path = getPathToScript()
@@ -59,8 +59,9 @@ class ViewController: NSViewController {
     return "\(path)/scripts/xcode-clean.sh"
   }
   
+  // TODO - doesn't work yet
   func cleanProduct() {
-    print("Clean that shit")
+    print("Cleaning Product...")
     let task = Process()
     task.launchPath = "/usr/bin/xcodebuild"
     task.arguments = ["-workspace", "\"Yelp.xcworkspace\""]
