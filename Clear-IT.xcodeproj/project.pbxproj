@@ -14,6 +14,7 @@
 		CF933517224D3FE900AACB3C /* Clear_ITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF933516224D3FE900AACB3C /* Clear_ITTests.swift */; };
 		CF933522224D3FE900AACB3C /* Clear_ITUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF933521224D3FE900AACB3C /* Clear_ITUITests.swift */; };
 		FD4CB5E2224D8A4000E1A9BF /* ShellUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4CB5E1224D8A4000E1A9BF /* ShellUtils.swift */; };
+		FD4CB5E8224D967C00E1A9BF /* MyWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4CB5E7224D967C00E1A9BF /* MyWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CF933523224D3FE900AACB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD4CB5E0224D843D00E1A9BF /* Clear-IT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Clear-IT.entitlements"; sourceTree = "<group>"; };
 		FD4CB5E1224D8A4000E1A9BF /* ShellUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellUtils.swift; sourceTree = "<group>"; };
+		FD4CB5E7224D967C00E1A9BF /* MyWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				CF93350C224D3FE900AACB3C /* Info.plist */,
 				CF93350D224D3FE900AACB3C /* Clear_IT.entitlements */,
 				FD4CB5E1224D8A4000E1A9BF /* ShellUtils.swift */,
+				FD4CB5E7224D967C00E1A9BF /* MyWindowController.swift */,
 			);
 			path = "Clear-IT";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD4CB5E2224D8A4000E1A9BF /* ShellUtils.swift in Sources */,
+				FD4CB5E8224D967C00E1A9BF /* MyWindowController.swift in Sources */,
 				CF933506224D3FE800AACB3C /* ViewController.swift in Sources */,
 				CF933504224D3FE800AACB3C /* AppDelegate.swift in Sources */,
 			);

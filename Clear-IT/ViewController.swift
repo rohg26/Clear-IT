@@ -25,4 +25,8 @@ class ViewController: NSViewController {
   @IBAction func didTapDelete(_ sender: Any) {
     ShellUtils.deleteDerivedData()
   }
+  
+  @IBAction func deleteFromTouchBar(_ sender: Any) {
+    ShellUtils.deleteDerivedData()
+  }
 }
