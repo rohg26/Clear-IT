@@ -46,6 +46,7 @@
 		CF93351D224D3FE900AACB3C /* Clear-ITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clear-ITUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF933521224D3FE900AACB3C /* Clear_ITUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear_ITUITests.swift; sourceTree = "<group>"; };
 		CF933523224D3FE900AACB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4CB5E0224D843D00E1A9BF /* Clear-IT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Clear-IT.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		CF933502224D3FE800AACB3C /* Clear-IT */ = {
 			isa = PBXGroup;
 			children = (
+				FD4CB5E0224D843D00E1A9BF /* Clear-IT.entitlements */,
 				CF933503224D3FE800AACB3C /* AppDelegate.swift */,
 				CF933505224D3FE800AACB3C /* ViewController.swift */,
 				CF933507224D3FE900AACB3C /* Assets.xcassets */,
@@ -192,6 +194,11 @@
 				TargetAttributes = {
 					CF9334FF224D3FE800AACB3C = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					CF933511224D3FE900AACB3C = {
 						CreatedOnToolsVersion = 10.1;
@@ -421,10 +428,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Clear-IT/Clear_IT.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V26LGWS854;
+				DEVELOPMENT_TEAM = 33Y7KFP7R8;
 				INFOPLIST_FILE = "Clear-IT/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,10 +446,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Clear-IT/Clear_IT.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V26LGWS854;
+				DEVELOPMENT_TEAM = 33Y7KFP7R8;
 				INFOPLIST_FILE = "Clear-IT/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
